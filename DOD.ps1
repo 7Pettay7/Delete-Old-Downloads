@@ -23,7 +23,7 @@ function GetTargetDownloads() {
 
 function DeleteTargetDownloads() {
     GetTargetDownloads |
-        Remove-Item -Recurse -Force -WhatIf
+        Remove-Item -Recurse -Force
 }
 
 # function to send results to an email
