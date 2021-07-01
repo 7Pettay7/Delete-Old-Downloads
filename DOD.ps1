@@ -2,10 +2,10 @@
 # Author: 7Pettay7
 
 # how many days old the downloads need to be to be deleted
-    # NOTE: must be a negative number to ensure substraction from todays date
+    # NOTE: must be a negative number in order for the script to subtract from the current date
 $daysOld = -90
 
-# optional email info, you must have two seperate emails; one for sending and the other for receiving; only need PW for sender
+# optional email info, you must have two separate emails; one for sending and the other for receiving; only need PW for sender
     # make sure to uncomment the 'MailResults' function at the bottom of script
 $sendingEmail = ""
 $senderPw = ""
