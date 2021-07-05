@@ -2,7 +2,7 @@
 
 Delete Old Downloads, or DOD, is a script written in PowerShell to delete your old downloads after a pre-specified number of days. The default amount of days old a download must be to get deleted is 90 days, but it can be changed in the script to any number.
 
-DOD also includes a feature that can send an email of what downloads were deleted in HTML format. You must edit the 'DOD.ps1' file to include a sending email address, the senders password, a receiving address, the SMTP server URL, and port number. To make sure you can properly test your email settings, there is a "-WhatIf" argument in the function where the downloads deletion executes. Remove that argument once done testing to have the program delete files.
+DOD also includes a feature that can send an email of what downloads were deleted in HTML format. You must edit the 'DOD.ps1' file to include a sending email address, the senders password, a receiving address, the SMTP server URL, and port number. To make sure you can properly test your email settings, there is a "-WhatIf" parameter in the function where the downloads deletion executes. Remove the parameter once done testing to have the program delete files.
 
 ***Please note that PowerShell does not send files/folders to the Recycle Bin, it deletes them entirely. Use this program with caution if there may be files/folders you would like to keep in your downloads folder***
 
