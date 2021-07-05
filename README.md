@@ -8,4 +8,4 @@ DOD also includes a feature that can send an email of what downloads were delete
 
 A guide will be coming soon on how to set up this file as a scheduled task :)
 
-![test](../assets/Delete-Old-Downloads/test.png)
+![test](../assets/Assets/Delete-Old-Downloads/test.png)
