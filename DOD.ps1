@@ -23,7 +23,7 @@ function GetTargetDownloads() {
 
 function DeleteTargetDownloads() {
     GetTargetDownloads |
-        Remove-Item -Recurse -Force
+        Remove-Item -Recurse -Force -WhatIf
 }
 
 # function to put together all email info and send results
