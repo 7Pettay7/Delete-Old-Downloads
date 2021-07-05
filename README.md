@@ -10,13 +10,17 @@ DOD also includes a feature that can send an email of what downloads were delete
 
 ### Windows 10 Scheduled Task Setup
 ![Opening task scheduler](../assets/test.png)
+
 1. Find and launch the "Task Scheduler" program
 
 ![Selecting "Task Scheduler Library" folder](../assets/step2.png)
+
 2. Select the "Task Scheduler Library" folder in the leftmost pane
 
 ![Creating a new subfolder for tasks](../assets/step3.png)
+
 3. Select the "New Folder..." option in the rightmost pane and name the new folder whatever you would like
 
 ![Creating a new task](../assets/final.png)
+
 4. Select "Create Task" in the rightmost pane. From here, follow [u/Martin9700's guide on creating a task](https://community.spiceworks.com/how_to/17736-run-powershell-scripts-from-task-scheduler)!
