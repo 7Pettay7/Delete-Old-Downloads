@@ -9,8 +9,8 @@ DOD also includes a feature that can send an email of what downloads were delete
 ## Guides
 
  - [Windows 10: Setup DOD as a Scheduled Task](#Windows-10-Scheduled-Task-Setup)
-Changing amount of time before downloads are deleted (COMING SOON)
-Changing email options (COMING SOON)
+ - Changing amount of time before downloads are deleted (COMING SOON)
+ - Changing email options (COMING SOON)
 
 ### Windows 10 Scheduled Task Setup
 ![Opening task scheduler](../assets/step1.png)
